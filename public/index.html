@@ -16,84 +16,103 @@
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/login.html">Login</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./login.html">Login</a></li>
             <li><a href="https://google.com">Google</a></li>
         </ul>
     </nav>
 
     <div class="hero">
+        <span class="background-image" role="img" aria-label="A mobile phone and a laptop with graphs on them"></span>
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
     </div>
 
     <main class="center" id="main">
 
-        <div class="page-area">
+        <!-- This is a Semantic HTML Change -->
+        <!-- This is an A11y Change -->
+        <div itemscope itemtype="http://schema.org/article" class="page-area" role="feed">
 
-            <article>
-                <h1>Stay on track</h1>
-                <p>
-                    Do you know where you are spending your money? If you really stop to track it down,
-                    you would get surprised! Proper budget management depends on real data... and this
-                    app will help you with that!
-                </p>
-            </article>
-    
-            <article>
-                <h1>Alerts</h1>
-                <p>
-                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
-                </p>
-            </article>
-    
-            <article>
-                <h1>Results</h1>
-                <p>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                    Also, they to live happier lives... since they expend without guilt or fear... 
-                    because they know it is all good and accounted for.
-                </p>
-            </article>
-    
-            <article>
-                <h1>Free</h1>
-                <p>
-                    This app is free!!! And you are the only one holding your data!
-                </p>
-            </article>
-    
-            <article>
-                <h1>Stay on track</h1>
-                <p>
-                    Do you know where you are spending your money? If you really stop to track it down,
-                    you would get surprised! Proper budget management depends on real data... and this
-                    app will help you with that!
-                </p>
-            </article>
-    
-            <article>
-                <h1>Alerts</h1>
-                <p>
-                    What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
-                </p>
-            </article>
-    
-            <article>
-                <h1>Results</h1>
-                <p>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                    Also, they to live happier lives... since they expend without guilt or fear... 
-                    because they know it is all good and accounted for.
-                </p>
-            </article>
-    
-            <article>
-                <h1>Chart</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
-            </article>
+                <!-- This is a Semantic HTML Change -->
+                <!-- This is an A11y Change -->
+                <article class="h-entry" role="article">
+                    <h1 itemprop="headline" class="p-name">Stay on track</h1>
+                    <p itemprop="articleBody" class="e-content">
+                        Do you know where you are spending your money? If you really stop to track it down,
+                        you would get surprised! Proper budget management depends on real data... and this
+                        app will help you with that!
+                    </p>
+                </article>
+
+                <!-- This is a Semantic HTML Change -->
+                <!-- This is an A11y Change -->
+                <article class="h-entry" role="article">
+                    <h1 itemprop="headline" class="p-name">Alerts</h1>
+                    <p itemprop="articleBody" class="e-content">
+                        What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                    </p>
+                </article>
+
+                <!-- This is a Semantic HTML Change -->
+                <!-- This is an A11y Change -->
+                <article class="h-entry" role="article">
+                    <h1 itemprop="headline" class="p-name">Results</h1>
+                    <p itemprop="articleBody" class="e-content">
+                        People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                        Also, they to live happier lives... since they expend without guilt or fear... 
+                        because they know it is all good and accounted for.
+                    </p>
+                </article>
+        
+                <!-- This is a Semantic HTML Change -->
+                <!-- This is an A11y Change -->
+                <article class="h-entry" role="article">
+                    <h1 itemprop="headline" class="p-name">Free</h1>
+                    <p itemprop="articleBody" class="e-content">
+                        This app is free!!! And you are the only one holding your data!
+                    </p>
+                </article>
+        
+                <!-- This is a Semantic HTML Change -->
+                <!-- This is an A11y Change -->
+                <article class="h-entry" role="article">
+                    <h1 itemprop="headline" class="p-name">Stay on track</h1>
+                    <p itemprop="articleBody" class="e-content">
+                        Do you know where you are spending your money? If you really stop to track it down,
+                        you would get surprised! Proper budget management depends on real data... and this
+                        app will help you with that!
+                    </p>
+                </article>
+        
+                <!-- This is a Semantic HTML Change -->
+                <!-- This is an A11y Change -->
+                <article class="h-entry" role="article">
+                    <h1 itemprop="headline" class="p-name">Alerts</h1>
+                    <p itemprop="articleBody" class="e-content">
+                        What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
+                    </p>
+                </article>
+        
+                <!-- This is a Semantic HTML Change -->
+                <!-- This is an A11y Change -->
+                <article class="h-entry" role="article">
+                    <h1 itemprop="headline" class="p-name">Results</h1>
+                    <p itemprop="articleBody" class="e-content">
+                        People who stick to a financial plan, budgeting every expense, get out of debt faster!
+                        Also, they to live happier lives... since they expend without guilt or fear... 
+                        because they know it is all good and accounted for.
+                    </p>
+                </article>
+        
+                <!-- This is a Semantic HTML Change -->
+                <!-- This is an A11y Change -->
+                <article class="h-entry" role="article">
+                    <h1 itemprop="headline" class="p-name">Chart</h1>
+                    <p itemprop="articleBody" class="e-content">
+                        <canvas id="myChart" width="400" height="400"></canvas>
+                    </p>
+                </article>
 
         </div>
 
