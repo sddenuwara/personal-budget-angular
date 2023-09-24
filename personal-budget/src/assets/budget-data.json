@@ -1,32 +1,25 @@
 {
-    "myBudget": [
-        {
-            "title": "Eat out",
-            "budget": 30
-        },
-        {
-            "title": "Rent",
-            "budget": 350
-        },
-        {
-            "title": "Groceries",
-            "budget": 90
-        },
-        {
-            "title": "Gas",
-            "budget": 80
-        },
-        {
-            "title": "Utilities",
-            "budget": 175
-        },
-        {
-            "title": "Susbcriptions",
-            "budget": 50
-        },
-        {
-            "title": "Miscellaneous",
-            "budget": 35
-        }
-    ]
+  "labels": [
+    "Eat out",
+    "Rent",
+    "Groceries",
+    "Gas",
+    "Utilities",
+    "Subscriptions",
+    "Other"
+  ],
+  "datasets": [
+    {
+      "data": [30, 350, 90, 80, 175, 50, 35],
+      "backgroundColor": [
+        "#ffcd56",
+        "#ff6384",
+        "#36a2eb",
+        "#fd6b19",
+        "#00ff00",
+        "#0000ff",
+        "#ff00ff"
+      ]
+    }
+  ]
 }

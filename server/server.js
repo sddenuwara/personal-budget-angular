@@ -11,6 +11,7 @@ app.get('/hello', (req, res) => {
 
 app.get('/budget', (req, res) => {
     const budget = require('../personal-budget/src/assets/budget-data.json');
+    console.log(budget);
     res.json(budget);
 });
 
